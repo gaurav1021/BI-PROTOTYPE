@@ -1,0 +1,15 @@
+.cont{
+    border-radius:15px;
+    background-color:#02AFD6;
+    padding:20px;
+    padding-top:25px;
+}
+.header {
+    font-weight:600;
+    color:white;
+    font-size:20px;
+    display:flex;
+}
+.header > p{
+    margin-left:10px;
+}

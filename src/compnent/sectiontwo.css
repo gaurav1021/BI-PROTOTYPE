@@ -1,0 +1,20 @@
+.template{
+    padding-left:35px;
+    padding-right: 35px;
+    padding-top: 15px;
+}
+.cont{
+    border-radius:15px;
+    background-color:#047189;
+    padding:20px;
+    padding-top:25px;
+}
+.header {
+    font-weight:600;
+    color:white;
+    font-size:20px;
+    display:flex;
+}
+.header > p{
+    margin-left:10px;
+}

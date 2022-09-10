@@ -1,0 +1,125 @@
+.Name{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom:0 !important;
+}
+.Financials{
+    font-weight:600;
+    font-size: 20px;
+    line-height: 25px;
+}
+.start{
+    background-color: #E5F8FD;
+    padding-left:4vw;
+    padding-top:19px;
+}
+body{
+    -ms-overflow-style: none;
+    /* background-color: black; */
+}
+.Mascot{
+    transform: translate(60vw, -70px)  rotate(-12deg);
+
+}
+.MyPortfolio{
+    background-color:white;
+    border-radius:2px;
+    margin:15px;
+    margin-top:-168px;
+    border-radius:10px;
+}
+.MPheader{
+    padding-top:10px;
+    font-weight:600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #EF9032;
+    text-align: center;
+}
+.MPimg{
+    width:50px !important;
+    width: fit-content;
+    /* padding:10vw; */
+}
+.carousel{
+    margin-top:20px;
+}
+.carousel-inner{
+    width:80%;
+    margin:auto;
+}
+.slide{
+    padding-left:20px;
+    padding-right:20px;
+}
+.carousel-control-prev, .carousel-control-next{
+    /* background-color:black; */
+    /* border-radius:50%; */
+    width:20px;
+    height:20px;
+    margin:auto;
+}
+.MPcontent{
+    padding:0 20px;
+}
+.carousel-indicators button {
+    display: none;
+}
+.info{
+    padding-left:4vw;
+    display: flex;
+    flex-wrap:wrap;
+}
+.info > p {
+    font-weight:400;
+    font-size:14px;
+    margin-bottom: 1px !important;
+}
+.info > h4 {
+    font-weight:600;
+    font-size:16px;
+}
+.ctem{
+    display:flex;
+
+}
+.iImg{
+    background-color: rgb(175, 173, 173);
+    margin-left: 10px;
+    padding: 0 4px;
+    font-size:8px;
+    /* transform: translateY('10px'); */
+    border-radius:50%;
+    overflow:hidden;
+    opacity:50%;
+}
+.recharts-responsive-container{
+    height:250px !important;
+}
+.MPchart{
+    padding:20px;
+    display:flex;
+    justify-content: center;
+}
+.IOHead{
+    font-weight: 600;
+    font-size:20px;
+    margin-left:15px;
+}
+.imgElts::-webkit-scrollbar {
+    display: none;
+  }
+.imgElts{
+    display:flex;
+    overflow:scroll;
+    padding-bottom:15px;
+    scrollbar-width: none;
+    margin-right:15px;
+}
+.info > p, .info> h4{
+    width:100%;
+}
+.sliderimg{
+    padding-left:10px;
+}

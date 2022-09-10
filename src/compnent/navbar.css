@@ -1,0 +1,133 @@
+.navbar-brand{
+    margin:auto;
+}
+.navbar-toggler{
+    border:0;
+    max-width:55px;
+    width:17vw;
+    padding:0px;
+    margin-left:19px;
+    margin-right:19px;
+}
+
+.container-fluid{
+    display:flex;
+    flex-wrap:nowrap !important;
+    padding:0px;
+}
+.additionalinfo{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+.offcanvas-body{
+    padding:0;
+    margin:0;
+}
+.offcanvas-start{
+    width:80vw !important;
+}
+.sideBarTopper{
+    text-align:center;
+    background-color:#e5f8fd;
+    padding:12px;
+}
+.investOnStrip{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+}
+.investOnStrip>img{
+    width:20vw;
+}
+.YouCanInvestO{
+    font-weight:500;
+    margin-bottom:1rem;
+    font-size:1rem !important;
+}
+.navbar{
+    overflow:hidden;
+    margin-bottom:0 !important;
+}
+.offcanvas-header{
+    padding:5px 5px;
+}
+.indv {
+    height:5vw;
+    width:5vw;
+    max-height:26px;
+    margin-right:4vw;
+}
+.headLogo{
+    text-align:start;
+}
+.sidebarBody{
+    padding-left:7vw;
+    margin-bottom:7vw;
+    padding-top:3vw;
+}
+.sidebarBody > div >img {
+    margin-right:3vw;
+}
+.sidebarBody > div {
+    font-weight: 600;
+}
+.sidebarHeading{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin-left:3vw;
+}
+.additionalSidebar{
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    padding-left:5vw;
+    padding-right:5vw;
+    margin-bottom:5vw;
+}
+.additionalSidebar > img{
+    padding-left:2vw;
+    flex-grow: 1;
+    max-width: 129px;
+    width:30vw;
+}
+.linksSidebar > a{
+    text-decoration: none;
+    color:black;
+    margin-left:3vw;
+    flex-grow:1;
+    font-size: 11px;
+    font-weight: 100;
+}
+.linksSidebar{
+    background-color: rgb(237, 234, 234);
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    /* width:fit-content; */
+    /* text-align: center; */
+    margin-bottom:5vw;
+}
+.tncSidebar{
+    text-align: left;
+}
+.rightsSidebar{
+    padding-left:7vw;
+    margin-bottom:10vh;
+}
+@media screen and (min-width:550px){
+    .additionalSidebar{
+        padding-right:0;
+    }
+}
+.YouCanInvestOn{
+    font-weight: 600;
+}
+.navbarDone{
+    height:2px;
+    background-image: linear-gradient(270deg, #02AFD6 25.87%, #E8780A 71.47%);
+}
